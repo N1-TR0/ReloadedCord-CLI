@@ -1,7 +1,7 @@
 # ReloadedCord CLI
 
 <p align="center">
-  <img src="https://i.imgur.com/hLiXr6n.png" width="750">
+  <img src="https://i.imgur.com/3lcHYNZ.png" width="500">
 </p>
 
 <p align="center">
