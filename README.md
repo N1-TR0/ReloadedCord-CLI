@@ -1,10 +1,16 @@
 # ReloadedCord CLI
 
-**ReloadedCord CLI** is a lightweight, TUI-based Python utility designed to patch Discord for legacy macOS versions. It automates the process of downloading the correct build, patching the module updater to prevent "Host Update" loops, and repacking the app into a ready-to-use DMG.
+<p align="center">
+  <img src="https://imgur.com/a/h9wCEnb" width="750">
+</p>
+
+<p align="center">
+  <strong>A lightweight TUI-based Discord patcher for legacy macOS</strong>
+</p>
 
 ---
 
-### 🚀 Features
+## 🚀 Features
 
 * **Auto-Detection:** Automatically identifies your macOS version and hardware model.
 * **Native macOS Integration:** Spawns a native AppleScript "Save As" window to choose your output location.
@@ -13,7 +19,15 @@
 
 ---
 
-### 📋 Prerequisites
+## 🖼️ Preview
+
+<p align="center">
+  <img src="https://imgur.com/a/h9wCEnb" width="700">
+</p>
+
+---
+
+## 📋 Prerequisites
 
 Before running the script, ensure you have the following installed:
 
@@ -30,7 +44,7 @@ Before running the script, ensure you have the following installed:
 
 ---
 
-### 🛠️ Installation & Usage
+## 🛠️ Installation & Usage
 
 1.  **Clone the repository:**
     ```bash
@@ -50,9 +64,10 @@ Before running the script, ensure you have the following installed:
 
 ---
 
-### 🖥️ Technical Details
+## 🖥️ Technical Details
 
 The script performs the following steps automatically:
+
 1.  **Fetch:** Downloads the specific `.dmg` from Discord's official servers.
 2.  **Mount:** Uses `hdiutil` to mount the image and extract the `.app` bundle.
 3.  **Unpack:** Uses `npx asar` to unpack the core application resources.
@@ -61,15 +76,17 @@ The script performs the following steps automatically:
 
 ---
 
-### ◈ Credits & Acknowledgments
+## ◈ Credits & Acknowledgments
 
 * **[Discord-Legacy-Patcher](https://github.com/Jazzzny/Discord-Legacy-Patcher)** by **Jazzzny** — This project is a CLI evolution of the original research and patching logic provided by Jazzzny. Huge shoutout for making the first project that paved the way for legacy Discord support.
 * Developed and enhanced with a TUI wrapper by **N1-TR0**.
 
 ---
 
-### 🤝 Contributing & Support
+## 🤝 Contributing & Support
 
 If you encounter issues with specific hardware models or macOS versions, please open an issue on the GitHub repository.
+
+---
 
 > **Disclaimer:** This project is not affiliated with Discord Inc. It is a community tool intended to extend the life of older hardware. Use at your own risk.
