@@ -1,7 +1,7 @@
 # ReloadedCord CLI
 
 <p align="center">
-  <img src="https://imgur.com/a/h9wCEnb" width="750">
+  <img src="https://i.imgur.com/hLiXr6n.png" width="750">
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="https://imgur.com/a/h9wCEnb" width="700">
+  <img src="https://i.imgur.com/hLiXr6n.png" width="700">
 </p>
 
 ---
